@@ -1,0 +1,142 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+
+body {
+    background-color: #EED8A7;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topBar {
+    padding: 25px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #A23B3B;
+}
+.topBar img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.main hr {
+    width: 85%;
+    border-color: #A23B3B;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #C7B299;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #A23B3B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: black;
+  color: #A23B3B;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #A23B3B;
+  color: #C7B299;
+}
+.topnav a.active:hover {
+    background-color: black;
+    color: #C7B299;
+  }
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+hr {
+    width: 100%;
+    border-color: #A23B3B;
+}
+
+/* Display stats */
+#statsTitle h2 {
+    text-align: center;
+    color: #A23B3B;
+}
+
+
+#kills, #deaths, #ratio {
+    float: left;
+    background-color: #C7B299;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+#kills h1 {
+    text-align: center;
+    color: #A23B3B;
+}
+#deaths h1 {
+    text-align: center;
+    color: #A23B3B;
+}
+#ratio h1 {
+    text-align: center;
+    color: #A23B3B;
+}
+
+#level, #exp, #nextLevel {
+    float: left;
+    background-color: #C7B299;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+#level h1 {
+    text-align: center;
+    color: #A23B3B;
+}
+#exp h1 {
+    text-align: center;
+    color: #A23B3B;
+}
+#nextLevel h1 {
+    text-align: center;
+    color: #A23B3B;
+}
+
+/*
+#deaths {
+    float: left;
+    background-color: #A23B3B;
+    width: 33.33%;
+    padding: 5px;
+}
+#deaths h2 {
+    text-align: center;
+}
+#ratio {
+    float: left;
+    background-color: #A23B3B;
+    width: 33.33%;
+    padding: 5px;
+}
+#ratio h2 {
+    text-align: center;
+}*/

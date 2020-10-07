@@ -1,0 +1,222 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+
+body {
+    background-color: #EED8A7;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topBar {
+    padding: 25px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #A23B3B;
+}
+.topBar img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.main hr {
+    width: 85%;
+    border-color: #A23B3B;
+}
+/*## For topnav-index #####################################################################################*/
+/* Add a black background color to the top navigation */
+
+/*.stats-div {
+  display: none;
+}
+*/
+
+.topnav-index {
+    background-color: #C7B299;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav-index a {
+  float: left;
+  color: #A23B3B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav-index a:hover {
+  background-color: black;
+  color: #A23B3B;
+}
+
+/* Add a color to the active/current link */
+.topnav-index a.active {
+  background-color: #A23B3B;
+  color: #C7B299;
+}
+.topnav-index a.active:hover {
+    background-color: black;
+    color: #C7B299;
+  }
+
+/* Right-aligned section inside the top navigation */
+.topnav-index-right {
+  float: right;
+}
+
+/*## For topnav-stats #####################################################################################*/
+/* Add a black background color to the top navigation */
+.topnav-stats {
+  background-color: #C7B299;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav-stats a {
+float: left;
+color: #A23B3B;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav-stats a:hover {
+background-color: black;
+color: #A23B3B;
+}
+
+/* Add a color to the active/current link */
+.topnav-stats a.active {
+background-color: #A23B3B;
+color: #C7B299;
+}
+.topnav-stats a.active:hover {
+  background-color: black;
+  color: #C7B299;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-stats-right {
+float: right;
+}
+/*##############################################################################################################*/
+
+/* Transparent text over image */
+/*.index-div {
+  display: block;
+}
+*/
+.arena {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.arena .content {
+    position: absolute;
+    bottom: 0;
+    background: #A23B3B;
+    background: rgba(162, 59, 59, 0.8);
+    color: #EED8A7;
+    width: 100%;
+    padding: 20px;
+}
+.fightbtn {
+  background-color: #A23B3B; /* Green */
+  border: none;
+  color: #EED8A7;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.index-div .win-result  {
+  color: green;
+}
+.index-div .loss-result  {
+  color: red;
+}
+hr {
+  border: 1px solid #A23B3B;
+  /*margin-bottom: 25px;*/
+}
+
+.combat{
+  text-align: center;
+}
+.fightbtn {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 0;
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.fightbtn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Display stats */
+#statsTitle h2 {
+  text-align: center;
+  color: #A23B3B;
+}
+
+
+#kills, #deaths, #ratio {
+  float: left;
+  background-color: #C7B299;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+#kills h1 {
+  text-align: center;
+  color: #A23B3B;
+}
+#deaths h1 {
+  text-align: center;
+  color: #A23B3B;
+}
+#ratio h1 {
+  text-align: center;
+  color: #A23B3B;
+}
+
+#level, #exp, #nextLevel {
+  float: left;
+  background-color: #C7B299;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+#level h1 {
+  text-align: center;
+  color: #A23B3B;
+}
+#exp h1 {
+  text-align: center;
+  color: #A23B3B;
+}
+#nextLevel h1 {
+  text-align: center;
+  color: #A23B3B;
+}

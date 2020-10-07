@@ -1,0 +1,61 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+
+body {
+    background-color: #EED8A7;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topBar {
+    padding: 25px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #A23B3B;
+}
+.topBar img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.main hr {
+    width: 85%;
+    border-color: #A23B3B;
+}
+
+.description h2 {
+    color: #A23B3B;
+    text-align: center;
+
+}
+.description p {
+    color: #A23B3B;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.buttonsBar img {
+    padding: 5px;
+    width: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image img {
+    width: 80%;
+    margin-top: -100px;
+    padding: 0px;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}

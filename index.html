@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Honour</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="topBar">
+        <a href="index.html"><img src="img/logo.png"></a> 
+    </div>
+
+    <!-- Have eventlistener keep track of which div to show at which point -->
+
+    <!-- show div on startup and when pressing arena button -->
+    <div class="index-div">
+        <div class="topnav-index">
+            <a class="active" href="" id="arenabtn-index"><b>Arena</b></a>
+            <a id="statsbtn-index"><b>Statistics</b></a>
+            <div class="topnav-index-right">
+                <a href="start.html" onClick="logout()"><b>Logout</b></a>
+            </div>
+        </div>
+        <div class="arena">
+            <img src="img/arena.png" alt="Arena" style="width:100%;">
+            <div class="content">
+                <h2>Welcome, you are currently in the arena!</h2>
+                <p>Here you can fight random opponents to gain experience and therefore gain an advantage over future opponents.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="combat">
+            <button class="fightbtn" onClick="fight()"><b>FIGHT!</b></button>
+            <h1 class="win-result" id="win-result"></h1>
+            <h1 class="loss-result" id="loss-result"></h1>
+        </div>
+    </div>
+
+    <div class="stats-div">
+        <!--
+        <div class="topnav-stats">
+            <a href="" id="arenabtn-stats"><b>Arena</b></a>
+            <a class="active" id="statsbtn-stats"><b>Statistics</b></a>
+            <div class="topnav-stats-right">
+                <a href="start.html" onClick="logout()"><b>Logout</b></a>
+            </div>
+        </div>
+        -->
+        <div>
+            <hr>
+            <div id="statsTitle"> 
+                <h2>Here are your stats:</h2> 
+            </div>
+            <hr>
+            <div id = "kills"> 
+                <h2>Kills:</h2> 
+                <h1 id="stats_kills"></h1>
+            </div>  
+            
+            <div id = "deaths"> 
+                <h2>Deaths:</h2> 
+                <h1 id="stats_deaths"></h1>
+            </div> 
+            
+            <div id = "ratio"> 
+                <h2>Kill/Death Ratio:</h2> 
+                <h1 id="stats_ratio"></h1>
+            </div> 
+        </div>
+        <hr>
+        <div> 
+            <div id = "level"> 
+                <h2>Level:</h2> 
+                <h1 id="stats_level"></h1>
+            </div>  
+            
+            <div id = "exp"> 
+                <h2>Experience:</h2> 
+                <h1 id="stats_experience"></h1>
+            </div> 
+            
+            <div id = "nextLevel"> 
+                <h2>Next Level:</h2> 
+                <h1 id="stats_nextLevel"></h1>
+            </div> 
+        </div>
+        <hr>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-firestore.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
